@@ -1,0 +1,75 @@
+body{
+ margin: 0px;
+ padding:0px;
+ background-image: url("../images/authback.jpg");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ align-items: center;
+ text-align: center;
+}
+.firstpage{
+ display:flex;
+}
+.frontface{
+  width:65%;
+  height:100vh;
+}
+.theotherfacelogin{
+  width:35%;
+  height:100vh;
+  display:none;
+}
+.theotherfaceSignup{
+  width:35%;
+  height:100vh;
+}
+select{
+  border:none;
+  background-color: #f0f8ff4d;
+  width:90px;
+  height:30px;
+  margin:10px;
+}
+  .authenticatorcontent{
+    background-color: #cdcbd97d;
+    height:70vh;
+    margin:0px;
+    padding-top: 30vh;
+  }
+  .loginchecker{
+    display:flex;
+  }
+button{
+  margin-top:20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  height:40px;
+  width: 30%;
+  padding-top:1%;
+  background-color:#d0cad6ba;
+  border-radius: 4px;
+  border-color: transparent;
+  color:black;
+  margin-bottom:10px;
+  font-size: 15px;
+}
+input{
+      background-color: #c5b7c6;
+      color:white;
+      border:none;
+      width:50%;
+      height:35px;
+      margin-top:10px;
+      margin-bottom:10px;
+}
+h3,h4{
+  color: white;
+  margin:0px;
+}
+.forgotpass{
+    color: ghostwhite;
+    position: absolute;
+    margin-left: 12%;
+    font-size: 12px;
+}

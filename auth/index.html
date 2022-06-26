@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+   <!-- Favicon -->
+   <link href="img/favicon.ico" rel="icon">
+
+   <!-- Google Web Fonts -->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+   <!-- Font Awesome -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+   <!-- Customized Bootstrap Stylesheet -->
+   <link href="css/style.css" rel="stylesheet">
+
+   <script src="scripts/script.js"></script>
+    <title>new web</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+      <div class="firstpage">
+        <div class="frontface">
+           <h3>Login Hereee</h3>
+        </div>
+        <div class="theotherfacelogin" id="login">
+            <div class="authenticatorcontent" >
+                <button type="button" name="button" onclick="Signuppage()" style="margin-top:-60px;margin-bottom:60px;">Signup</button>
+                <button type="button" name="button" onclick="Loginpage()">Login</button>
+                  <form class="loginform" action="index.html" method="post">
+                      <h4>Username</h4>
+                    <input type="text" name="username" value="" >
+                      <h4>Password</h4>
+                    <input type="text" name="password" value="">
+                  </form>
+                  <span class="forgotpass" onclick="forgotpass()">forgot password</span>
+                 <button type="button" name="button" onclick="Login()" >Login</button>
+
+              </div>
+        </div>
+        <div class="theotherfaceSignup" id="signup">
+            <div class="authenticatorcontent" >
+              <button type="button" name="button" onclick="Signuppage()">Signup</button>
+                <button type="button" name="button" onclick="Loginpage()">Login</button>
+                  <form class="loginform" action="index.html" method="post">
+                      <h4>Name</h4>
+                    <input type="text" name="Name" value="" >
+                      <h4>Username</h4>
+                    <input type="text" name="Username" value="">
+                      <h4>Password</h4>
+                    <input type="text" name="Password" value="">
+                      <h4>Role</h4>
+                    <select id="designation" name="cars">
+                        <option value="None"></option>
+                        <option value="Dealer">Dealer</option>
+                        <option value="Client">Client</option>
+                    </select>
+                  </form>
+          <button type="button" name="button" onclick="Signup()">Signup</button>
+        </div>
+        </div>
+      </div>
+  </body>
+</html>
