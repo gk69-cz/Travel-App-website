@@ -68,4 +68,26 @@ li a.active {
   margin-top: -70px;
   background-size: 100% 100%;
   background-image: url("../images/first1.jpg");
+  text-align: center;
+}
+
+.title{
+  margin:0;
+  color: white;
+  font-size: 80px;
+
+}
+.subtitle{
+  margin:0px;
+  color: white;
+  font-size: 30px;
+}
+
+.firstbase{
+  padding-top: 14%;
+  height:100vh;
+}
+.play{
+  height:20px;
+  width:20px;
 }
