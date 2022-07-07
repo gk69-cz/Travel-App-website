@@ -1,11 +1,15 @@
 body{
   margin:0px;
+  background-image: url("../images/bodybackground.png");
+  background-size: 100% 100%;
+
 
 }
 section {
   height:100vh;
 }
 nav{
+  padding-top: 10px;
   text-align: center;
 }
 .searchbox{
@@ -21,7 +25,6 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  border: 1px solid #e7e7e7;
   background-color: transparent;
 }
 .searchButton{
@@ -67,7 +70,6 @@ li a.active {
 .first{
   margin-top: -70px;
   background-size: 100% 100%;
-  background-image: url("../images/first1.jpg");
   text-align: center;
 }
 
@@ -90,4 +92,58 @@ li a.active {
 .play{
   height:20px;
   width:20px;
+}
+
+/*second section*/
+
+.second{
+  margin-top: -20%;
+}
+.content{
+  text-align: center;
+  align-items: center;
+}
+.secondtitle{
+ text-align: center;
+ font-size: 40px;
+ color:white;
+}
+.secondsubtitle{
+  margin-left:33%;
+  width:35%;
+  text-align: center;
+  color:white;
+}
+
+/*third section*/
+.third{
+  margin-top:-36%;
+}
+.packages{
+  display:flex;
+  margin-left:15%;
+}
+.package{
+  background-image: url("../images/packages.jpg");
+  background-size: 100% 100%;
+  margin:10px;
+  height:400px;
+  width:25%;
+  background-color: white;
+}
+.packagedetails{
+  margin-top:90%;
+}
+
+.packageTitle {
+  font-size:36px;
+  margin:0px;
+  color:white;
+  text-align: center;
+}
+.packageSubTitle{
+  font-size:20px;
+  margin:0px;
+  color: white;
+  text-align: center;
 }
