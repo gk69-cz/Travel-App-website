@@ -128,6 +128,7 @@ li a.active {
   background-size: 100% 100%;
   margin:10px;
   height:400px;
+  padding:7px;
   width:25%;
   background-color: white;
 }
@@ -147,7 +148,18 @@ li a.active {
   color: white;
   text-align: center;
 }
-
+.book{
+  background-color: #193343d6;
+    font-size: 30px;
+    margin: 20px 20px 20px 70px;
+}
+.packagedetailsback{
+  display:none;
+  padding: 20px;
+  margin: -9px;
+  height: 378px;
+  background-color: #323271b0;
+}
 /*footer*/
 .footer{
   padding: 10px;
