@@ -147,3 +147,11 @@ li a.active {
   color: white;
   text-align: center;
 }
+
+/*footer*/
+.footer{
+  padding: 10px;
+  text-align: center;
+  height:30px;
+  color: white;
+}
