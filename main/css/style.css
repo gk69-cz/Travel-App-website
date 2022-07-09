@@ -133,6 +133,10 @@ li a.active {
   display:flex;
   margin-left:15%;
 }
+.packages2{
+  display:flex;
+  margin-left:15%;
+}
 .package{
   background-size: 100% 100%;
   margin:10px;
@@ -181,7 +185,11 @@ li a.active {
 }
 .journels{
   display:flex;
-  margin-left:15%;
+  margin-left:20%;
+}
+.journels2{
+  display:flex;
+  margin-left:20%;
 }
 .packageSubTitleContent{
   padding: 10px;
