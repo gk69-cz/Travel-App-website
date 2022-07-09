@@ -43,8 +43,13 @@
       <div class="firstbase">
         <H1 class="title" > The Great Outdoors </H1>
         <p  class="subtitle"> <i>You'll never know until you go.</i></p>
-        <img class="play" src="images/play.png" alt="Italian Trulli">
-
+        <img class="play" src="images/play.png" alt="Play" onclick ="youtubevideo()">
+        <div class="youtube" style="display:none" id="youtube">
+            <img class="cross" src="images/close.png" alt="Close" onclick ="youtubeclose()">
+            <iframe width="70%" height="90%" src="https://www.youtube.com/embed/MlThQTo6D8A?controls=0">
+            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0" ></iframe> -->
+            </iframe>
+        </div>
       </div>
     </section>
     <section class="second">
@@ -111,38 +116,32 @@
 
       <div class="journel" style="background-image: url('images/packages.jpg')" >
         <div class="packagedetails" id ="packageface"  onclick="closedf()">
+          <p class="packageSubTitle"> 30TH DECEMBER 2022 </p>
           <p class="packageTitle">Machu Picchu</p>
-          <p class="packageSubTitle"> Peru</p>
+          <p class="packageSubTitleContent">  From his brochure to drop off at the airport to fly home his attention to detail and his consideration for his clients is superb. The archaeologists he uses as guides are erudite but highly personable and have an ability to turn a pile of stones into a recreation of the lives of the people who lived there over two millennia ago. Excellent.</p>
         </div>
-        <div class="packagedetailsback" id="packageinfo" onclick="infopackage()" >
-          <p class="packageTitle">Machu Picchu</p>
-          <p class="packageSubTitle"> Machu Picchu is an Incan citadel set high in the Andes Mountains in Peru, above the Urubamba River valley. Built in the 15th century and later abandoned, it’s renowned for its sophisticated dry-stone walls that fuse huge blocks without the use of mortar, intriguing buildings that play on astronomical alignments and panoramic views. Its exact former use remains a mystery.</p>
-        <button type="button" name="button" class="book">Book A trip</button>
-     </div>
     </div>
 
     <div class="journel" style="background-image: url('images/packages.jpg')" >
       <div class="packagedetails" id ="packageface"  onclick="closedf()">
+        <p class="packageSubTitle"> 30TH DECEMBER 2022 </p>
         <p class="packageTitle">Machu Picchu</p>
-        <p class="packageSubTitle"> Peru</p>
+        <p class="packageSubTitleContent">  From his brochure to drop off at the airport to fly home his attention to detail and his consideration for his clients is superb. The archaeologists he uses as guides are erudite but highly personable and have an ability to turn a pile of stones into a recreation of the lives of the people who lived there over two millennia ago. Excellent.</p>
       </div>
-      <div class="packagedetailsback" id="packageinfo" onclick="infopackage()" >
-        <p class="packageTitle">Machu Picchu</p>
-        <p class="packageSubTitle"> Machu Picchu is an Incan citadel set high in the Andes Mountains in Peru, above the Urubamba River valley. Built in the 15th century and later abandoned, it’s renowned for its sophisticated dry-stone walls that fuse huge blocks without the use of mortar, intriguing buildings that play on astronomical alignments and panoramic views. Its exact former use remains a mystery.</p>
-      <button type="button" name="button" class="book">Book A trip</button>
    </div>
-  </div>
+
+      <button type="button" name="button">&#8594;</button>
   </div>
 
     </section>
-    <p class="packageTitle" style="margin:30px;">FeedBack time</p>
+    <p class="packageTitle" style="margin-top: 10%;">FeedBack time</p>
     <section class="fourth">
 
       <div class="formsection">
         <form class="" action="index.html" method="post">
           <input class="contact" type="test" name="" value="" placeholder="Name">
-          <input class="contact" type="email" name="" value="" placeholder="Name">
-          <input class="contactmessage" type="text" name="" value="" placeholder="Name">
+          <input class="contact" type="email" name="" value="" placeholder="Email">
+          <input class="contactmessage" type="text" name="" value="" placeholder="Comments">
         </form>
       </div>
       <div class="contactMe">
@@ -152,6 +151,7 @@
     <section class="footer">
       <p>2022 Demo TravelWebsite All rights Reserved About Service Journel Search</p>
     </section>
+
 
   </body>
 </html>
