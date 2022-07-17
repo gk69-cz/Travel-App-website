@@ -27,19 +27,12 @@
         <li><a href="#Explore">Explore</a></li>
         <li><a href="#Home"><img src="images/icon.png" style="width:30px" ></a></li>
         <li><a href="#Journel">Journel</a></li>
-        <!-- <li><a href="#search">
-           <div class="searchbox" style="display :flex;">
-               <input type="text" name="" value="toSearch" placeholder="Location" id="searchbox" style="display:none">
-               <img id="search" class="search" src="" alt="search" style="display:none">
-               <button class="searchButton" id="searchButton" type="button" name="search" onclick="searching()">Search</button>
-           </div> </a>
-        </li> -->
         <li><a href="#search">Search</a></li>
 
      </ul>
 
     </nav>
-    <section class="first">
+    <section id="Home" class="first">
       <div class="firstbase">
         <H1 class="title" > The Great Outdoors </H1>
         <p  class="subtitle"> <i>You'll never know until you go.</i></p>
@@ -52,93 +45,94 @@
         </div>
       </div>
     </section>
-    <section class="second">
+    <section id="Explore" class="second">
     <div class="content">
-
          <H1 class="secondtitle" > Explore the World </H1>
          <p  class="secondsubtitle"> <i>Getting out of the comfort zone helps you grow as a person and see your potential.
             I have experienced many different cultures that have personally changed myself and my outlook of the world.
              Traveling has given me the greatest education I know more about the world, cultures, and myself.</i></p>
     </div>
     </section>
-    <section class="third">
+    <section class="third" id="About">
    <H1 class="secondtitle" > Top Packages </H1>
       <div class="packages" id="packages">
-        <button type="button" name="button" onclick="left()"><span>&#8592;</span></button>
-
+        <!-- <button id="leftpack" type="button" name="button" onclick="left()"><span>&#8592;</span></button> -->
           <div class="package" style="background-image: url('images/packages.jpg')" >
-          <div class="packagedetails" id ="packageface"  onclick="closedf()">
-            <p class="packageTitle">Machu Picchu</p>
-            <p class="packageSubTitle"> Peru</p>
+            <div class="packagedetails" id ="packageface"  onclick="closedf()">
+              <p class="packageTitle">Machu Picchu</p>
+              <p class="packageSubTitle"> Peru</p>
+            </div>
+            <div class="packagedetailsback" id="packageinfo" onclick="infopackage()" >
+              <p class="packageTitle">Machu Picchu</p>
+              <p class="packageSubTitle"> Machu Picchu is an Incan citadel set high in the Andes Mountains in Peru, above the Urubamba River valley. Built in the 15th century and later abandoned, it’s renowned for its sophisticated dry-stone walls that fuse huge blocks without the use of mortar, intriguing buildings that play on astronomical alignments and panoramic views. Its exact former use remains a mystery.</p>
+            <button type="button" name="button" class="book">Book A trip</button>
+            </div>
           </div>
-          <div class="packagedetailsback" id="packageinfo" onclick="infopackage()" >
-            <p class="packageTitle">Machu Picchu</p>
-            <p class="packageSubTitle"> Machu Picchu is an Incan citadel set high in the Andes Mountains in Peru, above the Urubamba River valley. Built in the 15th century and later abandoned, it’s renowned for its sophisticated dry-stone walls that fuse huge blocks without the use of mortar, intriguing buildings that play on astronomical alignments and panoramic views. Its exact former use remains a mystery.</p>
-          <button type="button" name="button" class="book">Book A trip</button>
+         <div class="package" style="background-image: url('images/venic.jpg')">
+            <div class="packagedetails" id ="packageface1"  onclick="closedf1()">
+              <p class="packageTitle">Venice</p>
+              <p class="packageSubTitle"> Italy</p>
+            </div>
+            <div class="packagedetailsback" id="packageinfo1" onclick="infopackage1()" >
+              <p class="packageTitle">Venice</p>
+              <p class="packageSubTitle"> Venice, the capital of northern Italy’s Veneto region, is built on more than 100 small islands in a lagoon in the Adriatic Sea. It has no roads, just canals – including the Grand Canal thoroughfare – lined with Renaissance and Gothic palaces. </p>
+            <button type="button" name="button" class="book">Book A trip</button>
+            </div>
+         </div>
+         <div class="package" style="background-image: url('images/paris.jpg')">
+          <div class="packagedetails" id ="packageface2"  onclick="closedf2()">
+            <p class="packageTitle">Paris</p>
+            <p class="packageSubTitle"> Italy</p>
           </div>
-          </div>
-             <div class="package" style="background-image: url('images/venic.jpg')">
-        <div class="packagedetails" id ="packageface1"  onclick="closedf1()">
-          <p class="packageTitle">Machu Picchu</p>
-          <p class="packageSubTitle"> Peru</p>
-        </div>
-        <div class="packagedetailsback" id="packageinfo1" onclick="infopackage1()" >
-          <p class="packageTitle">Machu Picchu</p>
-          <p class="packageSubTitle"> Machu Picchu is an Incan citadel set high in the Andes Mountains in Peru, above the Urubamba River valley. Built in the 15th century and later abandoned, it’s renowned for its sophisticated dry-stone walls that fuse huge blocks without the use of mortar, intriguing buildings that play on astronomical alignments and panoramic views. Its exact former use remains a mystery.</p>
-        <button type="button" name="button" class="book">Book A trip</button>
+          <div class="packagedetailsback" id="packageinfo2" onclick="infopackage2()" >
+            <p class="packageTitle">Paris</p>
+            <p class="packageSubTitle">Also known as the Latin Quarter, the 5th arrondissement is home to the Sorbonne university and student-filled cafes. It's also known for its bookshops, including the famed Shakespeare & Company.</p>
+            <button type="button" name="button" class="book">Book A trip</button>
           </div>
          </div>
-           <div class="package" style="background-image: url('images/paris.jpg')">
-      <div class="packagedetails" id ="packageface2"  onclick="closedf2()">
-        <p class="packageTitle">Machu Picchu</p>
-        <p class="packageSubTitle"> Peru</p>
-      </div>
-      <div class="packagedetailsback" id="packageinfo2" onclick="infopackage2()" >
-        <p class="packageTitle">Machu Picchu</p>
-        <p class="packageSubTitle"> Machu Picchu is an Incan citadel set high in the Andes Mountains in Peru, above the Urubamba River valley. Built in the 15th century and later abandoned, it’s renowned for its sophisticated dry-stone walls that fuse huge blocks without the use of mortar, intriguing buildings that play on astronomical alignments and panoramic views. Its exact former use remains a mystery.</p>
-      <button type="button" name="button" class="book">Book A trip</button>
-         </div>
-         </div>
-          <button type="button" name="button" onclick="right()">&#8594;</button>
+          <button type="button" name="button" onclick="left()">&#8594;</button>
       </div>
 
       <div class="packages2" id="packages2" style="display:none;">
-      <button type="button" name="button" onclick="left()"><span>&#8592;</span></button>
-
+      <button  id="leftpack" type="button" name="button" onclick="right()"><span>&#8592;</span></button>
           <div class="package" style="background-image: url('images/tibet.jpg')" >
-          <div class="packagedetails" id ="packageface"  onclick="closedf()">
-            <p class="packageTitle">Machu Picchu</p>
-            <p class="packageSubTitle"> Peru</p>
+            <div class="packagedetails" id ="packageface20"  onclick="closedf20()">
+              <p class="packageTitle">Tibet</p>
+              <p class="packageSubTitle"> Nepal</p>
+            </div>
+            <div class="packagedetailsback" id="packageinfo20" onclick="infopackage20()" >
+              <p class="packageTitle">Tibet</p>
+              <p class="packageSubTitle"> Tibet, on the lofty Tibetan Plateau on the northern side of the Himalayas, is an autonomous region of China. It's nicknamed the “Roof of the World” for its towering peaks. It shares Mt. Everest with Nepal. </p>
+              <button type="button" name="button" class="book">Book A trip</button>
+            </div>
           </div>
-          <div class="packagedetailsback" id="packageinfo" onclick="infopackage()" >
-            <p class="packageTitle">Machu Picchu</p>
-            <p class="packageSubTitle"> Machu Picchu is an Incan citadel set high in the Andes Mountains in Peru, above the Urubamba River valley. Built in the 15th century and later abandoned, it’s renowned for its sophisticated dry-stone walls that fuse huge blocks without the use of mortar, intriguing buildings that play on astronomical alignments and panoramic views. Its exact former use remains a mystery.</p>
+         <div class="package" style="background-image: url('images/green.jpg')">
+          <div class="packagedetails" id ="packageface12"  onclick="closedf12()">
+            <p class="packageTitle">Greenland</p>
+            <p class="packageSubTitle"> Greenland</p>
+          </div>
+          <div class="packagedetailsback" id="packageinfo12" onclick="infopackage12()" >
+            <p class="packageTitle">Greenland</p>
+            <p class="packageSubTitle"> Greenland is an island country part of the Kingdom of Denmark. It is located between the Arctic and Atlantic oceans, east of the Canadian Arctic Archipelago</p>
           <button type="button" name="button" class="book">Book A trip</button>
-          </div>
-          </div>
-             <div class="package" style="background-image: url('images/green.jpg')">
-        <div class="packagedetails" id ="packageface1"  onclick="closedf1()">
-          <p class="packageTitle">Machu Picchu</p>
-          <p class="packageSubTitle"> Peru</p>
-        </div>
-        <div class="packagedetailsback" id="packageinfo1" onclick="infopackage1()" >
-          <p class="packageTitle">Machu Picchu</p>
-          <p class="packageSubTitle"> Machu Picchu is an Incan citadel set high in the Andes Mountains in Peru, above the Urubamba River valley. Built in the 15th century and later abandoned, it’s renowned for its sophisticated dry-stone walls that fuse huge blocks without the use of mortar, intriguing buildings that play on astronomical alignments and panoramic views. Its exact former use remains a mystery.</p>
-        <button type="button" name="button" class="book">Book A trip</button>
-          </div>
+            </div>
          </div>
-           <div class="package" style="background-image: url('images/swis.jpg')">
-      <div class="packagedetails" id ="packageface2"  onclick="closedf2()">
-        <p class="packageTitle">Machu Picchu</p>
-        <p class="packageSubTitle"> Peru</p>
+         <div class="package" style="background-image: url('images/swis.jpg')">
+            <div class="packagedetails" id ="packageface22"  onclick="closedf22()">
+              <p class="packageTitle">Alps</p>
+              <p class="packageSubTitle"> Switzerland</p>
+            </div>
+            <div class="packagedetailsback" id="packageinfo22" onclick="infopackage22()" >
+              <p class="packageTitle">Alps</p>
+              <p class="packageSubTitle"> The Alpine region of Switzerland, conventionally referred to as the Swiss Alps, represents a major natural feature of the country and is, along with the Swiss Plateau and the Swiss portion of the Jura Mountains, one of its three main physiographic regions.</p>
+            <button type="button" name="button" class="book">Book A trip</button>
+               </div>
+         </div>
+          <!-- <button type="button" name="button" onclick="right()">&#8594;</button> -->
       </div>
-      <div class="packagedetailsback" id="packageinfo2" onclick="infopackage2()" >
-        <p class="packageTitle">Machu Picchu</p>
-        <p class="packageSubTitle"> Machu Picchu is an Incan citadel set high in the Andes Mountains in Peru, above the Urubamba River valley. Built in the 15th century and later abandoned, it’s renowned for its sophisticated dry-stone walls that fuse huge blocks without the use of mortar, intriguing buildings that play on astronomical alignments and panoramic views. Its exact former use remains a mystery.</p>
-      <button type="button" name="button" class="book">Book A trip</button>
-         </div>
-         </div>
-          <button type="button" name="button" onclick="right()">&#8594;</button>
+      <div class="counterpackage">
+        <p class="count">1</p>
+        <p class="count">1</p>
       </div>
 
     </section>
@@ -151,7 +145,7 @@
              Traveling has given me the greatest education I know more about the world, cultures, and myself.</i></p>
     </div>
     <div class="journels" id="journels">
-          <button type="button" name="button" onclick="leftj()"><span>&#8592;</span></button>
+
 
       <div class="journel" style="background-image: url('images/japan.jpg')" >
         <div class="packagedetails" id ="packageface" >
@@ -176,37 +170,37 @@
 
     <div class="journel" style="background-image: url('images/alps.jpg')" >
       <div class="packagedetails" id ="packageface" >
-        <p class="packageSubTitle"> 30TH DECEMBER 2022 </p>
-        <p class="packageTitle">JAPAN</p>
-        <p class="packageSubTitleContent">  I was very impressed with Tokyo – how new, clean, safe and efficient it all seemed compared to the chaos that is New York City. I loved the onsens and visiting the countryside too. I am glad we were able to visit Kyoto for all of the beauty and history found there.</p>
+        <p class="packageSubTitle"> 3TH DECEMBER 2022 </p>
+        <p class="packageTitle">SCOTLAND</p>
+        <p class="packageSubTitleContent">  Scotland is a country that is part of the United Kingdom. Covering the northern third of the island of Great Britain, mainland Scotland has a 96-mile border with England to the southeast</p>
       </div>
   </div>
 
   <div class="journel" style="background-image: url('images/kerala.jpg')" >
     <div class="packagedetails" id ="packageface"  >
-      <p class="packageSubTitle"> 14TH OCTOBER 2022 </p>
-      <p class="packageTitle">LONDON</p>
-      <p class="packageSubTitleContent">  Established in 1756, London’s Borough Market has something for every foodie. It’s home to some of the best British and international produce and dishes. Come here hungry and leave satisfied. It’s great for people-watching too.</p>
+      <p class="packageSubTitle"> 24TH OCTOBER 2022 </p>
+      <p class="packageTitle">KERALA</p>
+      <p class="packageSubTitleContent"> Kerala, a state on India's tropical Malabar Coast, has nearly 600km of Arabian Sea shoreline. It's known for its palm-lined beaches and backwaters, a network of canals. Inland are the Western Ghats, mountains whose slopes support tea, coffee and spice plantations as well as wildlife.</p>
     </div>
  </div>
 
-    <button type="button" name="button" onclick="rightj()">&#8594;</button>
+
 </div>
 
     </section>
-    <p class="packageTitle" style="margin-top: 20%;">FeedBack time</p>
-    <section class="fourth">
-
+    <p class="packageTitle" style="margin-top: 20%;margin-bottom: 2%;">Let's Get in Touch !!</p>
+    <section class="fourth" >
       <div class="formsection">
         <form class="" action="index.html" method="post">
-          <input class="contact" type="text" name="" value="" placeholder="Name">
-          <input class="contact" type="email" name="" value="" placeholder="Email">
-          <input class="contactmessage" type="text" name="" value="" placeholder="Comments">
+          <input id="name" class="contact" type="text" name="" value="" placeholder="Name">
+          <input  id="email" class="contact" type="email" name="" value="" placeholder="Email">
+          <input  id="message" class="contactmessage" type="text" name="" value="" placeholder="Comments">
+          <!-- <button class="sent" type ="submit" style="margin:20px;"> -->
         </form>
       </div>
-      <div class="contactMe">
-        <p> Its very important for us to keep in touch with you ,to make our works even better than before . Shoot...</p>
-        <button class="sent" type="button" name="button" onclick="sent()"> sent</button>
+      <!-- <div class="contactMe">
+        <p> How can we make this page Better </p>
+        <!-- <button class="sent" type="button" name="button" onclick="sent()"> sent</button> -->
       </div>
     </section>
     <section class="footer">

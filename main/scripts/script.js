@@ -25,6 +25,33 @@ function infopackage2(){
   document.getElementById("packageface2").style.display = "block";
 }
 
+function closedf20(){
+  document.getElementById("packageinfo20").style.display = "block";
+  document.getElementById("packageface20").style.display = "none";
+}
+function infopackage20(){
+  document.getElementById("packageinfo20").style.display = "none";
+  document.getElementById("packageface20").style.display = "block";
+}
+function closedf12(){
+  document.getElementById("packageinfo12").style.display = "block";
+  document.getElementById("packageface12").style.display = "none";
+}
+function infopackage12(){
+  document.getElementById("packageinfo12").style.display = "none";
+  document.getElementById("packageface12").style.display = "block";
+}
+
+function closedf22(){
+  document.getElementById("packageinfo22").style.display = "block";
+  document.getElementById("packageface22").style.display = "none";
+}
+function infopackage22(){
+  document.getElementById("packageinfo22").style.display = "none";
+  document.getElementById("packageface22").style.display = "block";
+}
+
+
 function left(){
   document.getElementById("packages").style.display = "none";
   document.getElementById("packages2").style.display = "flex";
@@ -50,4 +77,9 @@ function youtubevideo(){
 }
 function youtubeclose(){
     document.getElementById("youtube").style.display = "none";
+}
+
+function sent(){
+
+  alert(name);
 }
